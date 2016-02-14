@@ -1,0 +1,89 @@
+.flex-container-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.flex-container-column{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	justify-content: center;
+}
+header{
+	background: url('../img/designing.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+	box-sizing: border-box; 
+}
+a{
+	text-decoration: none;
+	color: #ccc;
+}
+.articles{
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+	line-height: 2em;
+	font-family: 'Lora', serif;
+	font-style: italic;
+}
+.avatar{
+	border: 2px solid white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+}
+.description{
+	font-style: italic;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}
+.list-item{
+	list-style-type: none;
+}
+.list-item a{
+	color: #0D47A1;
+}
+.title{
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	margin: 0px;
+}
+#about{
+	color: white;
+	background: #182329;
+	color: white;
+	padding: 1.5em;
+	box-sizing: border-box;
+}
+#habilits{
+	background-color: #00BCD4;
+}
+#habilits h3{
+	text-transform: uppercase;
+	color: white;
+}
+#header-item{
+	background: rgba(7, 30, 33, 0.8);
+	width: 100%;
+	box-sizing: border-box;
+	height: 200px;
+}
+#skills .item{
+	text-transform: uppercase;
+	color: white;
+	width: 100%;
+	margin: 10px;
+	background-color: #E8563E;
+	font-style: normal;
+	padding: 1em;
+	font-weight: 200;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+}
